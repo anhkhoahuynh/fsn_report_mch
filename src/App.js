@@ -18,26 +18,24 @@ function App() {
     jsonFile
   )
   const columns = [
-    { title: "Ngày", field: "Site", sorting: true},
-    { title: "Tuần", field: "Product" },
-    { title: "Tháng", field: "Parameter"},
-    { title: "Năm", field: "Temperature"},
-    { title: "Tên SP/NVL/BB", field: "Duration"},
-    { title: "Nhóm mối nguy", field: "Trung_bình", grouping: false },
-    { title: "Mối nguy", field: "Mode", grouping: false },
-    { title: "Lỗi", field: "Median", grouping: false },
-    { title: "Giới hạn chấp nhận", field: "Min", grouping: false },
-    { title: "Kết quả", field: "Max", grouping: false },
-    { title: "Nước xuất xử", field: "Shapiro-Wilk test", grouping: false },
-    //{ title: "Cp", field: "Cp", grouping: false },
-    //{ title: "Cpk", field: "Cpk", grouping: false },
-    { title: "Thị trường", field: "%Retention", grouping: false },
-    { title: "Link gốc", field: "%_seperative_reduction", grouping: false }
+    { title: "Ngày", field: "Ngày", sorting: true},
+    { title: "Tuần", field: "Tuần" },
+    { title: "Tháng", field: "Tháng"},
+    { title: "Năm", field: "Năm"},
+    { title: "Tên SP/NVL/BB", field: "Tên SP/NVL/BB"},
+    { title: "Nhóm mối nguy", field: "Nhóm mối nguy", grouping: false },
+    { title: "Mối nguy", field: "Mối nguy", grouping: false },
+    { title: "Lỗi", field: "Lỗi", grouping: false },
+    { title: "Giới hạn chấp nhận", field: "Giới hạn chấp nhận", grouping: false },
+    { title: "Kết quả", field: "Kết quả", grouping: false },
+    { title: "Nước xuất xử", field: "Nước xuất xử, grouping: false },
+    { title: "Thị trường", field: "Thị trường", grouping: false },
+    { title: "Link gốc", field: "Link gốc", grouping: false }
   ]
   return (
     <div className="App">
       <div className='abc'>
-        <h1 align="center">Shelf-life report</h1>
+        <h1 align="center">Food safety notification report</h1>
         <h2 align="center">QA MCH</h2>
       </div>
       <MaterialTable columns={columns} data={tableData}
