@@ -28,7 +28,7 @@ function App() {
     { title: "Lỗi", field: "Defect"},
     { title: "Giới_hạn_chấp_nhận", field: "Acceptance_level", grouping: false },
     { title: "Kết_quả", field: "Result" },
-    { title: "Nước_xuất_xử", field: "Origin_country},
+    { title: "Nước_xuất_xử", field: "Origin_country"},
     { title: "Thị_trường", field: "Market"},
     { title: "Link_gốc", field: "Link", grouping: false }
   ]
