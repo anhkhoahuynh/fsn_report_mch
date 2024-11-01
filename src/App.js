@@ -23,13 +23,13 @@ function App() {
     { title: "Tháng", field: "Tháng"},
     { title: "Năm", field: "Năm"},
     { title: "Tên SP/NVL/BB", field: "Tên SP/NVL/BB"},
-    { title: "Nhóm mối nguy", field: "Nhóm mối nguy", grouping: false },
-    { title: "Mối nguy", field: "Mối nguy", grouping: false },
-    { title: "Lỗi", field: "Lỗi", grouping: false },
+    { title: "Nhóm mối nguy", field: "Nhóm mối nguy"},
+    { title: "Mối nguy", field: "Mối nguy" },
+    { title: "Lỗi", field: "Lỗi"},
     { title: "Giới hạn chấp nhận", field: "Giới hạn chấp nhận", grouping: false },
-    { title: "Kết quả", field: "Kết quả", grouping: false },
-    { title: "Nước xuất xử", field: "Nước xuất xử, grouping: false },
-    { title: "Thị trường", field: "Thị trường", grouping: false },
+    { title: "Kết quả", field: "Kết quả" },
+    { title: "Nước xuất xử", field: "Nước xuất xử},
+    { title: "Thị trường", field: "Thị trường"},
     { title: "Link gốc", field: "Link gốc", grouping: false }
   ]
   return (
