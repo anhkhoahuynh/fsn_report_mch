@@ -22,7 +22,7 @@ function App() {
     { title: "Tuần", field: "Tuần" },
     { title: "Tháng", field: "Tháng"},
     { title: "Năm", field: "Năm"},
-    { title: "SP/NVL/BB", field: "Tên SP/NVL/BB"},
+    { title: "SP/NVL/BB", field: "SP/NVL/BB"},
     { title: "Nhóm_mối_nguy", field: "Nhóm_mối_nguy"},
     { title: "Mối_nguy", field: "Mối_nguy" },
     { title: "Lỗi", field: "Lỗi"},
