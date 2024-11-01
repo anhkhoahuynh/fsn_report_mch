@@ -18,22 +18,21 @@ function App() {
     jsonFile
   )
   const columns = [
-    { title: "Site", field: "Site", sorting: true},
-    { title: "Product", field: "Product" },
-    { title: "Parameter", field: "Parameter"},
-    { title: "Temperature", field: "Temperature"},
-    { title: "Duration", field: "Duration"},
-    { title: "Mean", field: "Trung_bình", grouping: false },
-    { title: "Mode", field: "Mode", grouping: false },
-    { title: "Median", field: "Median", grouping: false },
-    { title: "Min", field: "Min", grouping: false },
-    { title: "Max", field: "Max", grouping: false },
-    { title: "Shapiro-Wilk test", field: "Shapiro-Wilk test", grouping: false },
+    { title: "Ngày", field: "Site", sorting: true},
+    { title: "Tuần", field: "Product" },
+    { title: "Tháng", field: "Parameter"},
+    { title: "Năm", field: "Temperature"},
+    { title: "Tên SP/NVL/BB", field: "Duration"},
+    { title: "Nhóm mối nguy", field: "Trung_bình", grouping: false },
+    { title: "Mối nguy", field: "Mode", grouping: false },
+    { title: "Lỗi", field: "Median", grouping: false },
+    { title: "Giới hạn chấp nhận", field: "Min", grouping: false },
+    { title: "Kết quả", field: "Max", grouping: false },
+    { title: "Nước xuất xử", field: "Shapiro-Wilk test", grouping: false },
     //{ title: "Cp", field: "Cp", grouping: false },
     //{ title: "Cpk", field: "Cpk", grouping: false },
-    { title: "%retention", field: "%Retention", grouping: false },
-    { title: "%Reduction_da_tru", field: "%_seperative_reduction", grouping: false },
-    { title: "%Reduction_chua_tru", field: "%_accumulative_reduction", grouping: false }
+    { title: "Thị trường", field: "%Retention", grouping: false },
+    { title: "Link gốc", field: "%_seperative_reduction", grouping: false }
   ]
   return (
     <div className="App">
