@@ -22,15 +22,15 @@ function App() {
     { title: "Tuần", field: "Tuần" },
     { title: "Tháng", field: "Tháng"},
     { title: "Năm", field: "Năm"},
-    { title: "Tên SP/NVL/BB", field: "Tên SP/NVL/BB"},
-    { title: "Nhóm mối nguy", field: "Nhóm mối nguy"},
-    { title: "Mối nguy", field: "Mối nguy" },
+    { title: "SP/NVL/BB", field: "Tên SP/NVL/BB"},
+    { title: "Nhóm_mối_nguy", field: "Nhóm_mối_nguy"},
+    { title: "Mối_nguy", field: "Mối_nguy" },
     { title: "Lỗi", field: "Lỗi"},
-    { title: "Giới hạn chấp nhận", field: "Giới hạn chấp nhận", grouping: false },
-    { title: "Kết quả", field: "Kết quả" },
-    { title: "Nước xuất xử", field: "Nước xuất xử},
-    { title: "Thị trường", field: "Thị trường"},
-    { title: "Link gốc", field: "Link gốc", grouping: false }
+    { title: "Giới_hạn_chấp_nhận", field: "Giới_hạn_chấp_nhận", grouping: false },
+    { title: "Kết_quả", field: "Kết_quả" },
+    { title: "Nước_xuất_xử", field: "Nước_xuất_xử},
+    { title: "Thị_trường", field: "Thị_trường"},
+    { title: "Link_gốc", field: "Link_gốc", grouping: false }
   ]
   return (
     <div className="App">
