@@ -18,19 +18,19 @@ function App() {
     jsonFile
   )
   const columns = [
-    { title: "Ngày", field: "Ngày", sorting: true},
-    { title: "Tuần", field: "Tuần" },
-    { title: "Tháng", field: "Tháng"},
-    { title: "Năm", field: "Năm"},
-    { title: "SP/NVL/BB", field: "SP/NVL/BB"},
-    { title: "Nhóm_mối_nguy", field: "Nhóm_mối_nguy"},
-    { title: "Mối_nguy", field: "Mối_nguy" },
-    { title: "Lỗi", field: "Lỗi"},
-    { title: "Giới_hạn_chấp_nhận", field: "Giới_hạn_chấp_nhận", grouping: false },
-    { title: "Kết_quả", field: "Kết_quả" },
-    { title: "Nước_xuất_xử", field: "Nước_xuất_xử},
-    { title: "Thị_trường", field: "Thị_trường"},
-    { title: "Link_gốc", field: "Link_gốc", grouping: false }
+    { title: "Ngày", field: "Date", sorting: true},
+    { title: "Tuần", field: "Week" },
+    { title: "Tháng", field: "Month"},
+    { title: "Năm", field: "Year"},
+    { title: "SP/NVL/BB", field: "Name_of_material"},
+    { title: "Nhóm_mối_nguy", field: "Hazard_category"},
+    { title: "Mối_nguy", field: "Hazard_name" },
+    { title: "Lỗi", field: "Defect"},
+    { title: "Giới_hạn_chấp_nhận", field: "Acceptance_level", grouping: false },
+    { title: "Kết_quả", field: "Result" },
+    { title: "Nước_xuất_xử", field: "Origin_country},
+    { title: "Thị_trường", field: "Market"},
+    { title: "Link_gốc", field: "Link", grouping: false }
   ]
   return (
     <div className="App">
