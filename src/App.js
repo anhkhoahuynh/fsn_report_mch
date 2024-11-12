@@ -4,12 +4,14 @@ import MaterialTable from 'material-table'
 import jsonFile from "./temp.json";
 import ReactDOM from 'react-dom';
 
+var username = "VinhHao";
 var password = "VinhHao";
-while (k !== password) {
-var k = prompt("Nhập mật khẩu");
-if(k===password){alert('Mật khẩu đúng, nhấn Ok để tiếp tục')}
-else if (k !== password) {
-  alert("Sai mật khẩu! Hihi");
+while (k !== password || u !== username ) {
+var k = prompt("Nhập password");
+var u = prompt("Nhập user name");
+if(k===password && u===password){alert('User, password đúng, nhấn Ok để tiếp tục')}
+else if (k !== password || u !== user) {
+  alert("Sai user name hoặc password! Hihi");
   }
 }
   
