@@ -33,11 +33,11 @@ function App() {
     { title: "Link_gốc", field: "Link", grouping: false,
      render: (rowData: any) => (
         <a
-          href={rowData.companyURL}
+          href={rowData.Link}
           target="_blank"
           style={{ textDecoration: 'none' }}
         >
-          {rowData.companyURL}
+          {rowData.Link}
         </a>
       )  }
   ]
