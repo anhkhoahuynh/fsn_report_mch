@@ -30,7 +30,16 @@ function App() {
     { title: "Kết_quả", field: "Result" },
     { title: "Nước_xuất_xử", field: "Origin_country"},
     { title: "Thị_trường", field: "Market"},
-    { title: "Link_gốc", field: "Link", grouping: false }
+    { title: "Link_gốc", field: "Link", grouping: false,
+     render: (rowData: any) => (
+        <a
+          href={rowData.companyURL}
+          target="_blank"
+          style={{ textDecoration: 'none' }}
+        >
+          {rowData.companyURL}
+        </a>
+      )  }
   ]
   return (
     <div className="App">
